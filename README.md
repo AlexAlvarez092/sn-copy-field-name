@@ -8,7 +8,7 @@ The xml file contains a copy of the out-of-the-box Macro `element_context` with 
 
 ```xml
 <j:if test="${gs.hasRole('admin')}">
-		gcm.addLine();
-		gcm.addHref("Copy field name","navigator.clipboard.writeText('${jvar_field_name}');")
-	</j:if>
+	gcm.addLine();
+	gcm.addHref("Copy field name","navigator.clipboard.writeText('${jvar_field_name}');")
+</j:if>
 ```
